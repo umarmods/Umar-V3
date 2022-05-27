@@ -6,16 +6,16 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 const defaultMenu = {
   before: `
-  〔 ɴᴀɴᴅʜᴜᴛᴛʏ ᴠ3 〕
+  〔 ᴅᴀʀᴋ ᴜᴍᴀʀ 〕
 ➪Hai, %name!
 ➪Uptime: *%uptime (%muptime)*
-➪Developer:ᴀᴊᴍᴀʟ ᴀɴᴅ ᴀᴄʜᴜ
+➪Developer:ᴅᴀʀᴋ ᴅᴇᴠIʟ ᴜᴍᴀʀ
 %readmore`.trimStart(),
   header: '*[ %category ]*',
   body: '✰ %cmd %islimit %isPremium',
   footer: '\n*[ ᴍᴏʀᴇ ғᴇᴀᴛᴜʀᴇs ᴄᴏᴍᴍɪɴɢ sᴏᴏɴ ]*\n',
   after: `
-*ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ᴜsɪɴɢ ᴛʜᴇ ʙᴏᴛ🦄*
+*ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ᴜsɪɴɢ ᴛʜᴇ ᴅᴀʀᴋ ᴜᴍᴀʀ ʙᴏᴛ🦄*
 *ʜᴏᴘᴇ ʏᴏᴜ ᴀʀᴇ ᴇɴᴊᴏʏɪɴɢ🦄*
 `,
 }
@@ -175,10 +175,10 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     if (teks == '404') {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
-          "title": `      🔮 ɴᴀɴᴅʜᴜᴛᴛʏ ᴠ3 🔮\n\╭─❑\n\│✅ Version: v3 \n\│✅ Library: Baileys\n\│✅ Runtime: ${uptime} \n\╰❑\n\╭─⭐ 「 INFO USER 」\n\│ 👤 Name: ${name} \n\│ 🔍 Total Features : 100+\n\│ ⚠️ Limit: ${limit} \n\│ 🗓️ Date: ${date} \n\│ 🔰 Exp: ${exp} \n\│ 💎 Level: ${level} \n\│ 🔮 Role: ${role} \n\│ 📟 Storage: 106/128 Gb \n\╰⭐\n\╭─ ❑「 INFORMATION 」❑──\n\│ This bot is still in testing stage\n\│ if there is a bug \ error please\n\│ report it to the owner\n\│\n\╰❑`.trim(),
-          "description": "ᴅᴏɴᴛ sᴘᴀᴍ",
+          "title": `      🔮 ᴅᴀʀᴋ ᴜᴍᴀʀ 🔮\n\╭─❑\n\│✅ Version: v3 \n\│✅ Library: Baileys\n\│✅ Runtime: ${uptime} \n\╰❑\n\╭─⭐ 「 INFO USER 」\n\│ 👤 Name: ${name} \n\│ 🔍 Total Features : 100+\n\│ ⚠️ Limit: ${limit} \n\│ 🗓️ Date: ${date} \n\│ 🔰 Exp: ${exp} \n\│ 💎 Level: ${level} \n\│ 🔮 Role: ${role} \n\│ 📟 Storage: 106/128 Gb \n\╰⭐\n\╭─ ❑「 INFORMATION 」❑──\n\│ This bot is still in testing stage\n\│ if there is a bug \ error please\n\│ report it to the owner\n\│\n\╰❑`.trim(),
+          "description": "wa.me/919057593646 WA Me Only Girls 😬🤭",
           "buttonText": "Click Here",
-          "footerText": "ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ᴀᴊᴍᴀʟ-ᴀᴄʜᴜ",
+          "footerText": "ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ᴜᴍᴀʀ ʀᴇʜᴍᴀɴ",
           "listType": "SINGLE_SELECT",
           "sections": [
             {
@@ -276,7 +276,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                 }, {
                   "title": "𝐎𝐰𝐧𝐞𝐫",
                   "description": "",
-                  "rowId": `${_p}? owner`
+                  "rowId": `${_p}? .attp +919057593646 UMAR`
                 }
               ]
             }
@@ -365,7 +365,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send2ButtonLoc(m.chat, await (await fetch(fla + teks)).buffer(), text.trim(), 'ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ ᴀᴊᴍᴀʟ', 'ᴡʜᴏ ɪs ᴛʜᴇ ᴏᴡɴᴇʀ😯', `${_p}owner`, 'ɢɪᴛ', `${_p}git`, m)
+    await conn.send2ButtonLoc(m.chat, await (await fetch(fla + teks)).buffer(), text.trim(), 'ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ ᴅᴀʀᴋ ᴜᴍᴀʀ', 'ᴡʜᴏ ɪs ᴛʜᴇ ᴏᴡɴᴇʀ😯', `${_p}owner`, 'ɢɪᴛ', `${_p}.attp +919057593646 UMAR`, m)
   } catch (e) {
     conn.reply(m.chat, 'Sorry,The bot is not responding', m)
     throw e
